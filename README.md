@@ -1,7 +1,7 @@
 # Python-da-Resmi-Gazete-den-Veri-ekip-Excel-e-Aktarma
 Resmi Gazete sitesindeki son 1 ay verilerini Selenium aracılığıyla çekip Excel dosyasına kaydeden program
 
-'''
+```
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -160,4 +160,4 @@ try:
 
 finally:
     driver.quit()
-'''
+```
